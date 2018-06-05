@@ -4,11 +4,12 @@ import { DropTarget } from 'react-dnd';
 
 const boxTarget = {
     canDrop(props) {
-
+        // alert()
+        return true;
     },
   
     drop(props) {
-
+        // alert()
     }
 };
 
@@ -30,6 +31,8 @@ class Box extends Component {
     render() {
         const { connectDropTarget, isOver, canDrop } = this.props;
     
+        console.log(canDrop);
+
         return connectDropTarget(
           <div style={{
             position: 'relative',

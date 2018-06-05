@@ -1,0 +1,2 @@
+- Try dropping the drag source inside a simple <div>, get info of dragsource item once droppped
+   - STEP 2 , do the same in fullcalender.
