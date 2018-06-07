@@ -12,7 +12,6 @@ const calTarget = {
     },
   
     drop(props, monitor, component) {
-        // alert()
         console.log(monitor.getDropResult());
     }
 };
